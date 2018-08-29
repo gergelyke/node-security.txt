@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/gergelyke/express-security.txt.svg?branch=master)](https://travis-ci.org/gergelyke/express-security.txt)
 
-[![NPM](https://nodei.co/npm/express-security.txt.png?compact=true)](https://nodei.co/npm/express-security.txt/)
+[![NPM](https://nodei.co/npm/express-security.txt.png?compact=true)](https://nodei.co/npm/express-security.txt/) [![Greenkeeper badge](https://badges.greenkeeper.io/gergelyke/express-security.txt.svg)](https://greenkeeper.io/)
 
 ## node-security.txt
 
