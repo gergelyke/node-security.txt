@@ -23,13 +23,16 @@ module.exports = function (fields) {
 
 /**
  * Internal function to convert a string to one where the first
- * character is uppercase, and all subsequent are lowercase.
+ * character is uppercase, as well as characters after a space or
+ * dash character. All others are converted to lowercase.
  *
  * @param {string} string - The string to convert
  * @return {string} The capitalized form of the string
  */
 function normalizeCase (string) {
-  return string[0].toUpperCase() + string.substr(1).toLowerCase()
+    return str.toLowerCase().replace(/(?:^|[\s-])\w/g, function (match) {
+        return match.toUpperCase()
+    })
 }
 
 /**
