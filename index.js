@@ -30,7 +30,7 @@ module.exports = function (fields) {
  * @return {string} The capitalized form of the string
  */
 function normalizeCase (string) {
-    return str.toLowerCase().replace(/(?:^|[\s-])\w/g, function (match) {
+    return string.toLowerCase().replace(/(?:^|[\s-])\w/g, function (match) {
         return match.toUpperCase()
     })
 }
